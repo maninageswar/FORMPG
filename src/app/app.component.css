@@ -1,0 +1,43 @@
+.formSection{
+  margin: 10px;
+}
+
+input.ng-invalid.ng-dirty.ng-touched{
+  border: 2px solid red;
+}
+
+/*input.ng-pristine.ng-invalid.ng-touched{*/
+/*  border: 2px solid red;*/
+/*}*/
+
+.error_message{
+  color: red;
+  margin-bottom: 2px;
+}
+
+/*::slotted .multiselect-dropdown .dropdown-btn .selected-item-container .selected-item{*/
+/*  width: 100%;*/
+/*}*/
+
+/*.multiselect-dropdown[_ngcontent-ng-c1411523848] .dropdown-btn[_ngcontent-ng-c1411523848] .selected-item-container[_ngcontent-ng-c1411523848] .selected-item[_ngcontent-ng-c1411523848]{*/
+/*  background: red;*/
+/*}*/
+
+.line{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+td:first-child,th:first-child{
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+
+.MAIN_TABLE{
+  width: 100%;
+  overflow: auto;
+}
